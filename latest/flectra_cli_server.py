@@ -122,7 +122,7 @@ def import_translation():
 def main(args):
     check_root_user()
     flectra.tools.config.parse_config(args)
-    if lower(os.environ.get('UNSAFE_CHECK_POSTGRES_USER', 'true')) != 'false':
+    if os.environ.get('UNSAFE_CHECK_POSTGRES_USER', 'true').lower() != 'false':
         check_postgres_user()
     report_configuration()
 
