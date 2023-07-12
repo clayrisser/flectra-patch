@@ -4,6 +4,8 @@
 
 > simple flectra setup for docker
 
+![](assets/flectra-patch.png)
+
 Please ★ this repo if you found it useful ★ ★ ★
 
 
